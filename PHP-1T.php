@@ -19,6 +19,7 @@
   <main>
     <img src=img_1.jpeg alt="Фотография" width="600" height="450">
     <img scr=img_2.jpeg alt="Фотография" width="500" height="450">
+
     
     <table>
       <thead>

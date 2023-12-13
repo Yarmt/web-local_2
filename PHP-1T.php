@@ -17,8 +17,17 @@
   </header>
   
   <main>
-    <img src=img_1.jpeg alt="Фотография" width="600" height="450">
-    <img scr=img_2.jpeg alt="Фотография" width="500" height="450">
+    <?php
+  $imagePath = 'img_1.jpeg';
+  echo "<img src='$imagePath' alt='фотография'>";
+  ?>
+  <?php
+  $imagePath = 'img_2.jpeg';
+  echo "<img src='$imagePath' alt='фотография'>";
+  ?>
+    <!-- <img src=img_1.jpeg alt="Фотография" width="600" height="450"> -->
+    <!-- <img scr=img_2.jpeg alt="Фотография" width="500" height="450"> -->
+
 
     
     <table>
@@ -61,6 +70,11 @@
   
   <footer >
     <p>Контактная информация</p>
+    <?php
+    date_default_timezone_set('Europe/Moscow');
+    $currentTime = date("d.m.Y в H:i:s");
+    echo "Данная страница сформирована на $currentTime.<br>";
+    ?>
     <p>© <?php echo date("Y"); ?> Шминке Я.Д. Московский Политех. Все права защищены.</p>
   </footer>
   

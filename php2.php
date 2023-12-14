@@ -6,7 +6,7 @@
   $pageTitle = "Техника(Веб-разработчик Ярослав)";
   echo "<title>$pageTitle</title>";
   ?>
-  <link rel="stylesheet" href="1T.css">
+  <link rel="stylesheet" href="2T.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   
 </head>
@@ -24,9 +24,9 @@
   <?php
     $currentTime = date("s");
     if ($currentTime % 2 == 0) {
-        echo '<img src="img_2_1.jpeg" alt="Even Second Image">';
+        echo '<img src="img_2_1.jpg" alt="Even Second Image">';
     } else {
-        echo '<img src="img_2_2.jpeg" alt="Odd Second Image">';
+        echo '<img src="img_2_2.jpg" alt="Odd Second Image">';
     }
     ?>
     <table>

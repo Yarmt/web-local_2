@@ -1,0 +1,58 @@
+  /*шрифт из Google Fonts */
+  body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* .header{
+    background-color: rgb(197, 234, 160);
+} */
+.main_menu{ 
+    font-size: 20px;
+}
+/* Верхняя панель */
+header {
+    background-color: #d0a6a6;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* шапка с меню, сам текст*/
+  nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #e21d1d;
+  }
+  
+  /* Нижняя панель*/
+  footer {
+    background-color: #240303;
+    color: #fff;
+    padding: 60px;
+    text-align: center;
+    margin-bottom: 100%;
+  }
+  
+  /*фото */
+  img {
+    width: 800px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  /* тег строки таблицы+заголовка */
+  th, td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+  }

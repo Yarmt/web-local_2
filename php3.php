@@ -25,9 +25,9 @@
   <?php
   $currentTime = date("s");
   if ($currentTime % 2 == 0) {
-      echo '<img src="img_1.jpeg" alt="Even Second Image">';
+      echo '<img src="img_3_1.jpeg" alt="Even Second Image">';
   } else {
-      echo '<img src="img_2.jpeg" alt="Odd Second Image">';
+      echo '<img src="img_3_2.jpeg" alt="Odd Second Image">';
   }
   ?>
 

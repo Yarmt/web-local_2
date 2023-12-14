@@ -14,9 +14,9 @@
 <body>
   <header>
     <nav>
-      <a href="#section1">Раздел с котиками</a>
-      <a href="#section2">Раздел с технологиями</a>
-      <a href="#section3">Раздел с музыкой</a>
+      <a href="PHP-1T.php#nav">Раздел с котиками</a>
+      <a href="php2.php#nav">Раздел с технологиями</a>
+      <a href="php3.php#nav">Раздел с музыкой</a>
     </nav>
 
   </header>
@@ -47,19 +47,19 @@
       <thead>
         <tr>
           <?php 
-          $naming = "Название оборудования";
+          $naming = "Животное";
           echo '<th>'.  $naming; '</th>'
           ?>
           <?php 
-          $price = "Цена";
+          $price = "Размер";
           echo '<th>'.  $price; '</th>'
           ?>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Центральный процессор</td>
-          <td><?php echo 33000; ?></td>
+          <td>Тигр</td>
+          <td><?php echo "очень большой"; ?></td>
           <!-- <?php //тег для php страниц  ?> -->
           <!-- <?php //echo = output value  ?> -->
           <!-- <?php //$ = value variable  ?> -->
@@ -71,8 +71,8 @@
 
         </tr>
         <tr>
-          <td>Оперативная память</td>
-          <td><?php echo 6700; ?></td>
+          <td>Леопард</td>
+          <td><?php echo "большой"; ?></td>
         </tr>
       </tbody>
     </table>

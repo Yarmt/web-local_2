@@ -2,7 +2,11 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Веб-разработчик Ярослав</title>
+  <?php
+  $pageTitle = "Котики(Веб-разработчик Ярослав)";
+  echo "<title>$pageTitle</title>";
+  ?>
+  <!-- <title>Веб-разработчик Ярослав</title> -->
   <link rel="stylesheet" href="1T.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   
@@ -14,17 +18,26 @@
       <a href="#section2">Раздел с технологиями</a>
       <a href="#section3">Раздел с музыкой</a>
     </nav>
+
   </header>
   
   <main>
-    <?php
-  $imagePath = 'img_1.jpeg';
+  <?php
+  $currentTime = date("s");
+  if ($currentTime % 2 == 0) {
+      echo '<img src="img_1.jpeg" alt="Even Second Image">';
+  } else {
+      echo '<img src="img_2.jpeg" alt="Odd Second Image">';
+  }
+  ?>
+  <?php /* $imagePath = 'img_1.jpeg';
   echo "<img src='$imagePath' alt='фотография'>";
   ?>
+  
   <?php
   $imagePath = 'img_2.jpeg';
   echo "<img src='$imagePath' alt='фотография'>";
-  ?>
+  */ ?>
     <!-- <img src=img_1.jpeg alt="Фотография" width="600" height="450"> -->
     <!-- <img scr=img_2.jpeg alt="Фотография" width="500" height="450"> -->
 
@@ -64,9 +77,9 @@
       </tbody>
     </table>
   </main>
-  <section id="section1">
-    <a href="https://httpbin.org/post">Ссылка на раздел с доп.информацией</a>
-  </section>
+  <!-- <section id="section1"> -->
+  <!--   <a href="https://httpbin.org/post">Ссылка на раздел с доп.информацией</a> -->
+  <!-- </section> -->
   
   <footer >
     <p>Контактная информация</p>

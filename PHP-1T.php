@@ -13,7 +13,7 @@
 </head>
 <body>
   <header>
-    <nav>
+    <nav> 
       <a href="PHP-1T.php#nav">Раздел с котиками</a>
       <a href="php2.php#nav">Раздел с технологиями</a>
       <a href="php3.php#nav">Раздел с музыкой</a>

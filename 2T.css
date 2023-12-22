@@ -44,12 +44,14 @@ header {
     margin-left: auto;
     margin-right: auto;
   }
-  
-
   table {
+    margin: auto;
+    table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
   }
+
+  
   /* тег строки таблицы+заголовка */
   th, td {
     border: 1px solid #333;

@@ -47,6 +47,8 @@ header {
   
 
   table {
+    margin: auto;
+    table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
   }

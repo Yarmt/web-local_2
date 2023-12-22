@@ -13,15 +13,23 @@
 </head>
 <body>
   <header>
-    <nav>
-      <a href="PHP-1T.php#nav">Раздел с котиками</a>
-      <a href="php2.php#nav">Раздел с технологиями</a>
-      <a href="php3.php#nav">Раздел с музыкой</a>
+  <nav>
+      <a href="<?php echo 'PHP-1T.php'; ?>
+      " class="<?php echo 'selected_menu'; ?>">Раздел с котиками</a>
+      <a href="<?php echo 'php2.php'; ?>
+      " class="<?php echo 'selected_menu'; ?>">Раздел с технологиями</a>
+      <a href="<?php echo 'php3.php'; ?>
+      " class="<?php echo 'selected_menu'; ?>">Раздел с музыкой</a>
     </nav>
 
   </header>
   
   <main>
+  <?php
+$array = ['четыре', 'три','два','один' ];
+$string = implode(', ', $array);
+echo $string;
+?>
   <?php
   $currentTime = date("s");
   if ($currentTime % 2 == 0) {
